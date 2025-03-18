@@ -60,30 +60,37 @@ We have explored many different datasets. Here is the summary:
 
 ---
 
-## Model Training
-
-We trained the YOLOv8 model by [Ultralytics](https://github.com/ultralytics/ultralytics) on the D-Fire dataset to achieve accurate fire and smoke detection. Our research not only focuses on achieving high accuracy but also on optimizing model parameters and hyperparameters to ensure efficiency and speed.
-
-#### Training recipe can be found in a [training-recipes folder](training-recipes)
+Here’s a more engaging and dynamic version of your README section:  
 
 ---
 
-## Results
+## 🚀 Model Training  
 
-The trained YOLOv8 model demonstrated impressive performance on the D-Fire test dataset, with mAP@50 scores and inference time across different model sizes as follows. Evaluation was done using NVIDIA A100-SXM4-40. Resolution of input images was 640x640.
+We powered up YOLOv8 by [Ultralytics](https://github.com/ultralytics/ultralytics) and trained it on the D-Fire dataset to create a fast and reliable fire and smoke detection system. But we didn’t stop at just accuracy—we fine-tuned model parameters and hyperparameters to squeeze out maximum efficiency and speed. 🔥  
 
-| Model Size  | mAP@50 | Inference (ms) |
-|-------------|--------|----------------|
-| Nano        | 0.787  |     0.422      |
-| Small       | 0.798  |     0.773      |
-| Medium      | 0.801  |     1.532      |
-| Large       | 0.812  |     2.342      |
-| Extra Large | 0.814  |     3.465      |
+💡 **Want to see how we trained it?** Check out our **[training-recipes folder](training-recipes)** for a step-by-step breakdown!  
 
-#### For a detailed exploration of our training process and insights, we invite you to read our comprehensive guide on Medium: [Stay Ahead of the Flames: A Comprehensive Guide to Wildfire Prevention with YOLOv8](https://medium.com/institute-of-smart-systems-and-ai/stay-ahead-of-the-flames-a-comprehensive-guide-to-wildfire-prevention-with-yolov8-3eb8edd1121a)
+---  
+
+## 📊 Results  
+
+The results? 🔥🔥🔥 The trained YOLOv8 model delivered impressive accuracy on the D-Fire test dataset, achieving strong mAP@50 scores while maintaining rapid inference speeds. Below is a snapshot of its performance (evaluated on an NVIDIA A100-SXM4-40, with 640x640 input resolution):  
+
+| Model Size  | mAP@50 🎯 | Inference Time ⚡ (ms) |  
+|-------------|--------|----------------|  
+| Nano        | 0.787  |     0.422      |  
+| Small       | 0.798  |     0.773      |  
+| Medium      | 0.801  |     1.532      |  
+| Large       | 0.812  |     2.342      |  
+| Extra Large | 0.814  |     3.465      |  
+
+🔍 **Curious about how we did it?** We’ve got you covered! Check out our deep dive:  
+📖 **[Stay Ahead of the Flames: A Comprehensive Guide to Wildfire Prevention with YOLOv8](https://medium.com/institute-of-smart-systems-and-ai/stay-ahead-of-the-flames-a-comprehensive-guide-to-wildfire-prevention-with-yolov8-3eb8edd1121a)**  
+
+---  
+
+## 📜 License  
+
+This project is open-source and licensed under the [MIT License](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt). Feel free to use, modify, and contribute! 🚀  
 
 ---
-
-## License
-
-This project is licensed under the [MIT License](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt).
