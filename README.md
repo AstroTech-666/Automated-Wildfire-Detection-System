@@ -13,7 +13,7 @@ Welcome to the **Wildfire Detection Research** repository! Here, we're on a miss
 - **🔍 Future Potential** – Investigated how AI-driven wildfire detection could reshape prevention strategies worldwide.  
 
 👉 **Dive deeper into our research!** Check out our full breakdown, methodology, and results in this Medium article:  
-[Stay Ahead of the Flames: A Comprehensive Guide to Wildfire Prevention with YOLOv8](https://medium.com/institute-of-smart-systems-and-ai/stay-ahead-of-the-flames-a-comprehensive-guide-to-wildfire-prevention-with-yolov8-3eb8edd1121a)  
+[Stay Ahead of the Flames: A Comprehensive Guide to Wildfire Prevention with YOLOv8](https://medium.com/@abdulzadafarzana38/stay-ahead-of-the-flames-a-comprehensive-guide-to-wildfire-prevention-with-yolov8-3bdd8b9e9006)  
 
 ---
 
@@ -85,7 +85,7 @@ The results? 🔥🔥🔥 The trained YOLOv8 model delivered impressive accuracy
 | Extra Large | 0.814  |     3.465      |  
 
 🔍 **Curious about how we did it?** We’ve got you covered! Check out our deep dive:  
-📖 **[Stay Ahead of the Flames: A Comprehensive Guide to Wildfire Prevention with YOLOv8](https://medium.com/institute-of-smart-systems-and-ai/stay-ahead-of-the-flames-a-comprehensive-guide-to-wildfire-prevention-with-yolov8-3eb8edd1121a)**  
+📖 **[Stay Ahead of the Flames: A Comprehensive Guide to Wildfire Prevention with YOLOv8](https://medium.com/@abdulzadafarzana38/stay-ahead-of-the-flames-a-comprehensive-guide-to-wildfire-prevention-with-yolov8-3bdd8b9e9006)**  
 
 ---  
 
