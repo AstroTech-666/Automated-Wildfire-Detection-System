@@ -1,4 +1,4 @@
-# 🔥 Wildfire Detection – Fighting Fires with AI  
+# 🔥 Automated Wildfire Detection System 
 Welcome to the **Wildfire Detection Research** repository! Here, we're on a mission to revolutionize wildfire prevention using the power of **computer vision**. Our research focuses on training an advanced **object detection model** to accurately spot fire and smoke in images—because early detection can mean the difference between safety and disaster.  
 
 <p align="center">
