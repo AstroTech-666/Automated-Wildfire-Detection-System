@@ -1,30 +1,37 @@
-# Wildfire Detection
-Welcome to the Wildfire Detection Research repository! This repository hosts the code and resources related to our research on leveraging computer vision for fire detection. Our aim is to contribute to wildfire prevention efforts by developing and training an object detection model to accurately identify instances of fire and smoke in images.
+# 🔥 Wildfire Detection – Fighting Fires with AI  
+Welcome to the **Wildfire Detection Research** repository! Here, we're on a mission to revolutionize wildfire prevention using the power of **computer vision**. Our research focuses on training an advanced **object detection model** to accurately spot fire and smoke in images—because early detection can mean the difference between safety and disaster.  
 
 <p align="center">
   <img src="src/intro-gif.gif" alt="gif" width = 800>
 </p>
 
-## Highlights:
+## 🚀 Highlights:
 
-- Trained YOLOv8 model using the D-Fire dataset for accurate fire and smoke detection.
-- Explored different model sizes and their performance metrics.
-- Developed a Streamlit app for practical demonstration of the model's capabilities.
-- Investigated future implications of using computer vision in wildfire prevention strategies.
+- **🔥 Fire Detection with YOLOv8** – We trained a cutting-edge YOLOv8 model using the **D-Fire dataset** for highly accurate fire and smoke detection.  
+- **📊 Performance Optimization** – Explored different model sizes to find the best balance between speed and accuracy.  
+- **🖥️ Interactive Web App** – Developed a **Streamlit-powered demo** so you can test the model in real-time.  
+- **🔍 Future Potential** – Investigated how AI-driven wildfire detection could reshape prevention strategies worldwide.  
 
-#### For a comprehensive understanding of our research journey, methodology, and results, please refer to our Medium article: [Stay Ahead of the Flames: A Comprehensive Guide to Wildfire Prevention with YOLOv8](https://medium.com/institute-of-smart-systems-and-ai/stay-ahead-of-the-flames-a-comprehensive-guide-to-wildfire-prevention-with-yolov8-3eb8edd1121a)
+👉 **Dive deeper into our research!** Check out our full breakdown, methodology, and results in this Medium article:  
+[Stay Ahead of the Flames: A Comprehensive Guide to Wildfire Prevention with YOLOv8](https://medium.com/institute-of-smart-systems-and-ai/stay-ahead-of-the-flames-a-comprehensive-guide-to-wildfire-prevention-with-yolov8-3eb8edd1121a)  
 
 ---
 
-## Dataset
+## 📂 Dataset – D-Fire 🔥  
+To build a robust model, we leveraged the **[D-Fire dataset](https://github.com/gaiasd/DFireDataset)**—a **massive collection of 21,000 labeled images**, meticulously annotated in YOLO format. It includes:  
 
-We utilized the [D-Fire dataset](https://github.com/gaiasd/DFireDataset), a curated collection of 21,000 labeled images, each annotated in YOLO format. The dataset focuses on fire and smoke instances, while also encompassing diverse visual cues, including non-fire images that resemble fire-like patterns.
+✅ **Fire & Smoke Instances** – Clearly labeled occurrences for precise detection.  
+✅ **Challenging Visuals** – Non-fire images that mimic flames, ensuring robustness.  
+✅ **Diverse Scenarios** – Different environments and lighting conditions for real-world applicability.  
+
 <p align="center">
   <img src="src/multiple-examples.png" alt="D-Fire dataset examples" width = 600>
 </p>
 <div align="center">
   D-Fire dataset examples
-</div>
+</div>  
+
+---  
 
 We have explored many different datasets. Here is the summary:
 
@@ -74,21 +81,6 @@ The trained YOLOv8 model demonstrated impressive performance on the D-Fire test 
 | Extra Large | 0.814  |     3.465      |
 
 #### For a detailed exploration of our training process and insights, we invite you to read our comprehensive guide on Medium: [Stay Ahead of the Flames: A Comprehensive Guide to Wildfire Prevention with YOLOv8](https://medium.com/institute-of-smart-systems-and-ai/stay-ahead-of-the-flames-a-comprehensive-guide-to-wildfire-prevention-with-yolov8-3eb8edd1121a)
-
----
-
-## Streamlit App
-
-For a practical demonstration of our research, you can interact with our Wildfire Detection App, powered by the YOLOv8 model. This app allows you to upload images and observe the model's detection capabilities in action. 
-
-#### To experience the app, visit: [Wildfire Detection App](https://wildfire-detection.streamlit.app)
-
-<p align="center">
-  <img src="src/streamlit-merged.png" alt="Streamlit App" width = 600>
-</p>
-<div align="center">
-  Wildfire Detection App
-</div>
 
 ---
 
